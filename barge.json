@@ -1,0 +1,32 @@
+{
+"designState": {
+	"calculationParameters": {
+		"Draft_design": 2
+	}
+},
+"structure": {
+	"hull": {
+		"attributes": {
+			"LOA": 20,
+			"BOA": 8,
+			"Depth": 4},
+		"halfBreadths": {
+			"waterlines": [0, 1],
+			"stations": [0, 1],
+			"table": [[0, 0], [1, 1]]
+		},
+		"buttockHeights": {}
+	},
+	"decks": {
+		
+		
+	},
+	"bulkheads": {
+	}
+},
+"baseObjects": 
+[{"id":"I_beam_X","boxDimensions":{"length":20,"breadth":0.5,"height":1}, "file3D":"Beam_X_Normal.stl"},{"id":"I_beam_Y","boxDimensions":{"length":1,"breadth":20,"height":1}, "file3D":"Beam_Y_Normal.stl"},{"id":"I_beam_Z","boxDimensions":{"length":1,"breadth":1,"height":20}, "file3D":"Beam_Z_Normal.stl"}],
+
+"derivedObjects": [{"id":"beam1","baseObject":"I_beam_X","affiliations":{},"referenceState":{"xCentre":2,"yCentre":0,"zBase":4}},{"id":"beam2","baseObject":"I_beam_X","affiliations":{},"referenceState":{"xCentre":2,"yCentre":1,"zBase":4}},{"id":"beam3","baseObject":"I_beam_Z","affiliations":{},"referenceState":{"xCentre":2,"yCentre":2,"zBase":4}},{"id":"beam4","baseObject":"I_beam_Y","affiliations":{},"referenceState":{"xCentre":2,"yCentre":3,"zBase":4}}]
+
+}

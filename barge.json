@@ -27,6 +27,6 @@
 "baseObjects": 
 [{"id":"I_beam_X","boxDimensions":{"length":2,"breadth":0.5,"height":1}, "file3D":"Beam_X_Normal.stl"},{"id":"I_beam_Y","boxDimensions":{"length":0.5,"breadth":10,"height":1}, "file3D":"Beam_Y_Normal.stl"}],
 
-"derivedObjects": [{"id":"beam1","baseObject":"I_beam_X","affiliations":{},"referenceState":{"xCentre":2,"yCentre":0,"zBase":4}},{"id":"beam2","baseObject":"I_beam_Y","affiliations":{},"referenceState":{"xCentre":2,"yCentre":2,"zBase":2}}]
+"derivedObjects": [{"id":"beam1","baseObject":"I_beam_X","affiliations":{},"referenceState":{"xCentre":2,"yCentre":0,"zBase":4}},{"id":"beam2","baseObject":"I_beam_Y","affiliations":{},"referenceState":{"xCentre":2,"yCentre":2,"zBase":2}},{"id":"beam3","baseObject":"I_beam_Y","affiliations":{},"referenceState":{"xCentre":2,"yCentre":2,"zBase":0}}]
 
 }

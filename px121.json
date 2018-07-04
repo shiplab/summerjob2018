@@ -1,0 +1,33 @@
+{
+"designState": {
+	"calculationParameters": {
+		"Draft_design": 2
+	}
+},
+"structure": {
+	"hull": {
+		"attributes": {
+			"LOA": 20,
+			"BOA": 8,
+			"Depth": 4},
+		"halfBreadths": {
+			"waterlines": [0, 1],
+			"stations": [0, 1],
+			"table": [[0, 0], [1, 1]]
+		},
+		"buttockHeights": {}
+	},
+	"decks": {
+		
+		
+	},
+	"bulkheads": {
+	}
+},
+"baseObjects": 
+[{"id":"I_beam_X","boxDimensions":{"length":20,"breadth":0.5,"height":-1}, "file3D":"Beam_X_Normal.stl"},{"id":"L_beam_X","boxDimensions":{"length":20,"breadth":0.25,"height":-0.5}, "file3D":"stiffener_x.stl"},{"id":"L_beam_Y","boxDimensions":{"length":0.25,"breadth":8,"height":-0.5}, "file3D":"stiffener_y.stl"},{"id":"L_beam_Z","boxDimensions":{"length":1,"breadth":1,"height":20}, "file3D":"stiffener_z.stl"}],
+
+"derivedObjects": [{"id":"beam1","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":0.5,"yCentre":0,"zBase":4}},{"id":"beam2","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":2,"yCentre":0,"zBase":4}},{"id":"beam3","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":3.5,"yCentre":0,"zBase":4}},{"id":"beam4","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":5,"yCentre":0,"zBase":4}},{"id":"beam5","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":6.5,"yCentre":0,"zBase":4}},{"id":"beam6","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":8,"yCentre":0,"zBase":4}},{"id":"beam7","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":9.5,"yCentre":0,"zBase":4}},{"id":"beam8","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":11,"yCentre":0,"zBase":4}},{"id":"beam9","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":12.5,"yCentre":0,"zBase":4}},{"id":"beam10","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":14,"yCentre":0,"zBase":4}},{"id":"beam11","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":15.5,"yCentre":0,"zBase":4}},{"id":"beam12","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":17,"yCentre":0,"zBase":4}},{"id":"beam13","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":18.5,"yCentre":0,"zBase":4}},{"id":"beam14","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":19.8,"yCentre":0,"zBase":4}},{"id":"beam15","baseObject":"I_beam_X","affiliations":{},"referenceState":{"xCentre":10,"yCentre":0,"zBase":4}},{"id":"beam16","baseObject":"L_beam_X","affiliations":{},"referenceState":{"xCentre":10,"yCentre":2,"zBase":4}},{"id":"beam117","baseObject":"L_beam_X","affiliations":{},"referenceState":{"xCentre":10,"yCentre":-2,"zBase":4}}]
+
+    
+}

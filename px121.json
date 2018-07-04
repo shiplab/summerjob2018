@@ -1,33 +1,119 @@
 {
 "designState": {
 	"calculationParameters": {
-		"Draft_design": 2
+		"Draft_design": 6.5
 	}
 },
 "structure": {
 	"hull": {
 		"attributes": {
-			"LOA": 20,
-			"BOA": 8,
-			"Depth": 4},
+			"LOA": 88.9,
+			"BOA": 18,
+			"Depth": 8},
 		"halfBreadths": {
-			"waterlines": [0, 1],
-			"stations": [0, 1],
-			"table": [[0, 0], [1, 1]]
+				"waterlines": [0, 0.2, 0.4, 0.6, 0.8, 1, 1.2, 1.4, 1.6, 1.8],
+				"stations": [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
+				"table": [
+					[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, null],
+					[0, 0, 0, 0.07017543859649122, 0.4789473684210526, 0.5605263157894737, 0.513157894736842, 0.38947368421052636, 0.21403508771929824, 0.06315789473684211, null],
+					[0.27017543859649124, 0.637719298245614, 0.7456140350877193, 0.8114035087719298, 0.8482456140350877, 0.8464912280701754, 0.7789473684210527, 0.6342105263157894, 0.40350877192982454, 0.15789473684210525, null],
+					[0.7929824561403508, 0.8385964912280702, 0.874561403508772, 0.9052631578947369, 0.9263157894736842, 0.9342105263157895, 0.8903508771929824, 0.7728070175438597, 0.5482456140350876, 0.25789473684210523, 0],
+					[0.8464912280701754, 0.8833333333333333, 0.9131578947368421, 0.9350877192982456, 0.9535087719298244, 0.9631578947368421, 0.9333333333333333, 0.8447368421052632, 0.6517543859649122, 0.3570175438596491, 0.04035087719298246],
+					[0.863157894736842, 0.900877192982456, 0.9289473684210526, 0.9508771929824561, 0.9692982456140351, 0.9798245614035087, 0.9587719298245614, 0.8956140350877193, 0.7359649122807018, 0.45526315789473687, 0.08508771929824561],
+					[0.8789473684210526, 0.9166666666666666, 0.943859649122807, 0.9666666666666666, 0.9833333333333334, 0.9929824561403509, 0.981578947368421, 0.9385964912280701, 0.8070175438596491, 0.5491228070175438, 0.1385964912280702],
+					[0.8850877192982456, 0.9236842105263157, 0.9508771929824561, 0.9710526315789474, 0.987719298245614, 1, 0.9991228070175439, 0.9736842105263157, 0.8710526315789473, 0.6456140350877193, 0.21140350877192984],
+					[null, null, null, null, null, null, null, 0.9780701754385965, 0.8885964912280702, 0.6947368421052631, 0.2807017543859649],
+					[null, null, null, null, null, null, null, null, null, null, 0.3263157894736842]
+				]
+			},
+			"buttockHeights": {}
 		},
-		"buttockHeights": {}
+		"decks": {
+			"WheelHouseTop": {
+				"zFloor": 23.4,
+				"thickness": 0.3,
+				"xAft": 52,
+				"xFwd": 80,
+				"yCentre": 0,
+				"breadth": 18,
+				"density": 1500
+			},
+			"BridgeDeck": {
+				"zFloor": 19.2,
+				"thickness": 0.3,
+				"xAft": 52,
+				"xFwd": 80,
+				"yCentre": 0,
+				"breadth": 18,
+				"density": 1500
+			},
+			"Cdeck": {
+				"zFloor": 16.5,
+				"thickness": 0.3,
+				"xAft": 44,
+				"xFwd": 82,
+				"yCentre": 0,
+				"breadth": 18,
+				"density": 1500
+			},
+			"Bdeck": {
+				"zFloor": 13.8,
+				"thickness": 0.3,
+				"xAft": 44,
+				"xFwd": 82,
+				"yCentre": 0,
+				"breadth": 18,
+				"density": 1500
+			},
+			"Adeck": {
+				"zFloor": 10.9,
+				"thickness": 0.3,
+				"xAft": 0,
+				"xFwd": 82,
+				"yCentre": 0,
+				"breadth": 18,
+				"density": 1500
+			},
+			"MainDeck": {
+				"zFloor": 8,
+				"thickness": 0.3,
+				"xAft": 0,
+				"xFwd": 82,
+				"yCentre": 0,
+				"breadth": 18,
+				"density": 1500
+			},
+			"TweenDeck": {
+				"zFloor": 5.3,
+				"thickness": 0.3,
+				"xAft": 0,
+				"xFwd": 82,
+				"yCentre": 0,
+				"breadth": 18,
+				"density": 1500
+			},
+			"TankTop": {
+				"zFloor": 1,
+				"thickness": 0.3,
+				"xAft": 0,
+				"xFwd": 82,
+				"yCentre": 0,
+				"breadth": 18,
+				"density": 1500
+			}
+		},
+		"bulkheads": {
+			"AB": {
+				"xAft": 50,
+				"thickness": 0.1,
+				"density": 7850
+			}
+		}
 	},
-	"decks": {
-		
-		
-	},
-	"bulkheads": {
-	}
-},
 "baseObjects": 
-[{"id":"I_beam_X","boxDimensions":{"length":20,"breadth":0.5,"height":-1}, "file3D":"Beam_X_Normal.stl"},{"id":"L_beam_X","boxDimensions":{"length":20,"breadth":0.25,"height":-0.5}, "file3D":"stiffener_x.stl"},{"id":"L_beam_Y","boxDimensions":{"length":0.25,"breadth":8,"height":-0.5}, "file3D":"stiffener_y.stl"},{"id":"L_beam_Z","boxDimensions":{"length":1,"breadth":1,"height":20}, "file3D":"stiffener_z.stl"}],
+[{"id":"mud_tank","boxDimensions":{"length":5,"breadth":8,"height":5}, "file3D":"Mud_Tank_arrangment.stl"}],
 
-"derivedObjects": [{"id":"beam1","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":0.5,"yCentre":0,"zBase":4}},{"id":"beam2","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":2,"yCentre":0,"zBase":4}},{"id":"beam3","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":3.5,"yCentre":0,"zBase":4}},{"id":"beam4","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":5,"yCentre":0,"zBase":4}},{"id":"beam5","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":6.5,"yCentre":0,"zBase":4}},{"id":"beam6","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":8,"yCentre":0,"zBase":4}},{"id":"beam7","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":9.5,"yCentre":0,"zBase":4}},{"id":"beam8","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":11,"yCentre":0,"zBase":4}},{"id":"beam9","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":12.5,"yCentre":0,"zBase":4}},{"id":"beam10","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":14,"yCentre":0,"zBase":4}},{"id":"beam11","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":15.5,"yCentre":0,"zBase":4}},{"id":"beam12","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":17,"yCentre":0,"zBase":4}},{"id":"beam13","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":18.5,"yCentre":0,"zBase":4}},{"id":"beam14","baseObject":"L_beam_Y","affiliations":{},"referenceState":{"xCentre":19.8,"yCentre":0,"zBase":4}},{"id":"beam15","baseObject":"I_beam_X","affiliations":{},"referenceState":{"xCentre":10,"yCentre":0,"zBase":4}},{"id":"beam16","baseObject":"L_beam_X","affiliations":{},"referenceState":{"xCentre":10,"yCentre":2,"zBase":4}},{"id":"beam117","baseObject":"L_beam_X","affiliations":{},"referenceState":{"xCentre":10,"yCentre":-2,"zBase":4}}]
+"derivedObjects": [{"id":"mud_tank_1","baseObject":"mud_tank","affiliations":{},"referenceState":{"xCentre":0.5,"yCentre":0,"zBase":4}}]
 
     
 }

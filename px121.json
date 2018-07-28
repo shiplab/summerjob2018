@@ -7,8 +7,8 @@
 "structure": {
 	"hull": {
 		"attributes": {
-			"LOA": 88.9,
-			"BOA": 18,
+			"LOA": 110,
+			"BOA": 20,
 			"Depth": 8},
 		"halfBreadths": {
 				"waterlines": [0, 0.2, 0.4, 0.6, 0.8, 1, 1.2, 1.4, 1.6, 1.8],
@@ -30,73 +30,73 @@
 		},
 		"decks": {
 			"WheelHouseTop": {
-				"zFloor": 23.4,
+				"zFloor": 100,
 				"thickness": 0.3,
-				"xAft": 52,
-				"xFwd": 80,
+				"xAft": 65,
+				"xFwd": 85,
 				"yCentre": 0,
 				"breadth": 18,
 				"density": 1500
 			},
 			"BridgeDeck": {
-				"zFloor": 19.2,
+				"zFloor": 100,
 				"thickness": 0.3,
-				"xAft": 52,
-				"xFwd": 80,
+				"xAft": 62,
+				"xFwd": 88,
 				"yCentre": 0,
 				"breadth": 18,
 				"density": 1500
 			},
 			"Cdeck": {
-				"zFloor": 16.5,
+				"zFloor": 100,
 				"thickness": 0.3,
-				"xAft": 44,
-				"xFwd": 82,
+				"xAft": 55,
+				"xFwd": 88,
 				"yCentre": 0,
 				"breadth": 18,
 				"density": 1500
 			},
 			"Bdeck": {
-				"zFloor": 13.8,
+				"zFloor": 100,
 				"thickness": 0.3,
-				"xAft": 44,
-				"xFwd": 82,
+				"xAft": 55,
+				"xFwd": 88,
 				"yCentre": 0,
 				"breadth": 18,
 				"density": 1500
 			},
 			"Adeck": {
-				"zFloor": 10.9,
+				"zFloor": 100,
 				"thickness": 0.3,
-				"xAft": 0,
-				"xFwd": 82,
+				"xAft": 50,
+				"xFwd": 88,
 				"yCentre": 0,
 				"breadth": 18,
 				"density": 1500
 			},
 			"MainDeck": {
-				"zFloor": 8,
+				"zFloor": 100,
 				"thickness": 0.3,
 				"xAft": 0,
-				"xFwd": 82,
+				"xFwd": 110,
 				"yCentre": 0,
 				"breadth": 18,
 				"density": 1500
 			},
 			"TweenDeck": {
-				"zFloor": 5.3,
+				"zFloor": 100,
 				"thickness": 0.3,
 				"xAft": 0,
-				"xFwd": 82,
+				"xFwd": 110,
 				"yCentre": 0,
 				"breadth": 18,
 				"density": 1500
 			},
 			"TankTop": {
-				"zFloor": 1,
+				"zFloor": 1.5,
 				"thickness": 0.3,
 				"xAft": 0,
-				"xFwd": 82,
+				"xFwd": 110,
 				"yCentre": 0,
 				"breadth": 18,
 				"density": 1500
@@ -104,16 +104,96 @@
 		},
 		"bulkheads": {
 			"AB": {
-				"xAft": 50,
+				"xAft": 0,
 				"thickness": 0.1,
 				"density": 7850
 			}
 		}
 	},
 "baseObjects": 
-[{"id":"mud_tank","boxDimensions":{"length":5,"breadth":8,"height":5}, "file3D":"Mud_Tank_arrangment.stl"}],
+[{"id":"crane","boxDimensions":{"length":9.1,"breadth":1,"height":2.5}, "file3D":"crane.stl"}, {"id":"Main_Deck_Winch1","boxDimensions":{"length":2.5,"breadth":7.5,"height":2}, "file3D":"Main_Deck_Winch1.stl"},{"id":"Deck_Winch","boxDimensions":{"length":1.2,"breadth":3,"height":2}, "file3D":"Deck_Winch.stl"}, {"id":"Main_Deck_Room","boxDimensions":{"length":40,"breadth":19,"height":4}, "file3D":"Main_Deck_Room.stl"}, {"id":"Bollard","boxDimensions":{"length":2,"breadth":0.8,"height":1},"file3D":"Bollard.stl"}, {"id":"Tween_Deck_Engine_Room_bk","boxDimensions":{"length":35,"breadth":14,"height":3.5},"file3D":"Tween_Deck_Engine_Room_bk.stl"}, {"id":"Genset","boxDimensions":{"length":6.5,"breadth":2.7,"height":3},"file3D":"Genset.stl"}, {"id":"Main_Genset","boxDimensions":{"length":8.5,"breadth":3.5,"height":4},"file3D":"Main_Genset.stl"},{"id":"Mud_Tank","boxDimensions":{"length":4,"breadth":-4,"height":7},"file3D":"Mud_Tank.stl"}, {"id":"Mud_Tank_Starboard","boxDimensions":{"length":4,"breadth":4,"height":7},"file3D":"Mud_Tank.stl"},{"id":"Pump_Mud","boxDimensions":{"length":0.8,"breadth":3.8,"height":3.8},"file3D":"Pump_Mud.stl"}, 
+{"id":"Pump_Mud_Starboard","boxDimensions":{"length":0.8,"breadth":-3.8,"height":3.8},"file3D":"Pump_Mud.stl"},
+{"id":"Heat_Exchanger","boxDimensions":{"length":1.5,"breadth":2,"height":2.5},"file3D":"Heat_Exchanger.stl"}, 
+{"id":"Switch_Board","boxDimensions":{"length":1,"breadth":3,"height":3},"file3D":"Switch_Board.stl"},
+{"id":"Human_Model","boxDimensions":{"length":0.3,"breadth":0.6,"height":1.7},"file3D":"Human_Model.stl"},
+{"id":"Propulsion","boxDimensions":{"length":-2.6,"breadth":3.3,"height":6.2},"file3D":"Propulsion.stl"},
+{"id":"Compressor","boxDimensions":{"length":2.7,"breadth":1.5,"height":1.2},"file3D":"Compressor.stl"},
+{"id":"Stair","boxDimensions":{"length":2.5,"breadth":1.2,"height":3.5},"file3D":"Stair.stl"},
+{"id":"Air_Tank","boxDimensions":{"length":6,"breadth":2.5,"height":3},"file3D":"Air_Tank.stl"},
+{"id":"CO2_Tank","boxDimensions":{"length":0.6,"breadth":0.6,"height":4},"file3D":"CO2_Tank.stl"},
+{"id":"Pump_Fueloil","boxDimensions":{"length":1,"breadth":1,"height":1.8},"file3D":"Pump_Fueloil.stl"}, {"id":"Transvers_Thruster","boxDimensions":{"length":2,"breadth":3,"height":3},"file3D":"Transvers_Thruster.stl"},
+{"id":"Thruster_Motor","boxDimensions":{"length":0.8,"breadth":0.8,"height":1.6},"file3D":"Thruster_Motor.stl"},
+{"id":"Propulsion_Room","boxDimensions":{"length":12,"breadth":14,"height":3.5},"file3D":"Propulsion_Room.stl"}],
+    
+    
+    
 
-"derivedObjects": [{"id":"mud_tank_1","baseObject":"mud_tank","affiliations":{},"referenceState":{"xCentre":0.5,"yCentre":0,"zBase":4}}]
+"derivedObjects": [{"id":"crane_1","baseObject":"crane","affiliations":{},"referenceState":{"xCentre":48,"yCentre":-8,"zBase":14}, "rotation": {"xRotation": 0, "yRotation":0, "zRotation":0}, "scale": {"xScale":1, "yScale":1, "zScale":1}},{"id":"crane_2","baseObject":"crane","affiliations":{},"referenceState":{"xCentre":48,"yCentre":8,"zBase":14}}, 
+                   
+{"id":"Main_Deck_Winch1_1","baseObject":"Main_Deck_Winch1", "affiliations":{},"referenceState": {"xCentre":52,"yCentre":0,"zBase":14}}, {"id":"Deck_Winch_1","baseObject":"Deck_Winch", "affiliations":{},"referenceState": {"xCentre":52,"yCentre":-8,"zBase":10}}, {"id":"Deck_Winch_2","baseObject":"Deck_Winch", "affiliations":{},"referenceState": {"xCentre":52,"yCentre":8,"zBase":10}},
+                   
+{"id":"Main_Deck_Room","baseObject":"Main_Deck_Room", "affiliations":{},"referenceState": {"xCentre":80,"yCentre":0,"zBase":100}},
+                   
+{"id":"Bollard_1", "baseObject":"Bollard", "affiliations":{},"referenceState": {"xCentre":2,"yCentre":8.5,"zBase":10}}, {"id":"Bollard_2", "baseObject":"Bollard", "affiliations":{},"referenceState": {"xCentre":2,"yCentre":-8.5,"zBase":10}}, {"id":"Bollard_3", "baseObject":"Bollard", "affiliations":{},"referenceState": {"xCentre":20,"yCentre":8.5,"zBase":10}}, {"id":"Bollard_4", "baseObject":"Bollard", "affiliations":{},"referenceState": {"xCentre":20,"yCentre":-8.5,"zBase":10}}, {"id":"Bollard_5", "baseObject":"Bollard", "affiliations":{},"referenceState": {"xCentre":40,"yCentre":8.5,"zBase":10}}, {"id":"Bollard_6", "baseObject":"Bollard", "affiliations":{},"referenceState": {"xCentre":40,"yCentre":-8.5,"zBase":10}}, {"id":"Bollard_7", "baseObject":"Bollard", "affiliations":{},"referenceState": {"xCentre":55,"yCentre":8.5,"zBase":10}}, {"id":"Bollard_8", "baseObject":"Bollard", "affiliations":{},"referenceState": {"xCentre":55,"yCentre":-8.5,"zBase":10}}, 
+                   
+{"id":"Tween_Deck_Engine_Room_bk", "baseObject":"Tween_Deck_Engine_Room_bk", "affiliations":{},"referenceState": {"xCentre":88,"yCentre":0,"zBase":6.5}},
+                   
+{"id":"Genset_1", "baseObject":"Genset", "affiliations":{},"referenceState": {"xCentre":85,"yCentre":5.5,"zBase":6.5}},{"id":"Genset_2", "baseObject":"Genset", "affiliations":{},"referenceState": {"xCentre":82,"yCentre":0,"zBase":6.5}},{"id":"Genset_3", "baseObject":"Genset", "affiliations":{},"referenceState": {"xCentre":85,"yCentre":-5.5,"zBase":6.5}},
+                   
+{"id":"Main_Genset_1", "baseObject":"Main_Genset", "affiliations":{},"referenceState": {"xCentre":75,"yCentre":-3,"zBase":1.5}}, {"id":"Main_Genset_2", "baseObject":"Main_Genset", "affiliations":{},"referenceState": {"xCentre":75,"yCentre":3,"zBase":1.5}}, 
+ 
+{"id":"Mud_Tank_1", "baseObject":"Mud_Tank", "affiliations":{},"referenceState": {"xCentre":55,"yCentre":6,"zBase":1.5}},{"id":"Pump_Mud_1", "baseObject":"Pump_Mud", "affiliations":{},"referenceState": {"xCentre":55,"yCentre":4,"zBase":1.4}},
+{"id":"Mud_Tank_2", "baseObject":"Mud_Tank", "affiliations":{},"referenceState": {"xCentre":51,"yCentre":6,"zBase":1.5}},{"id":"Pump_Mud_2", "baseObject":"Pump_Mud", "affiliations":{},"referenceState": {"xCentre":51,"yCentre":4,"zBase":1.4}},
+{"id":"Mud_Tank_3", "baseObject":"Mud_Tank", "affiliations":{},"referenceState": {"xCentre":47,"yCentre":6,"zBase":1.5}},{"id":"Pump_Mud_3", "baseObject":"Pump_Mud", "affiliations":{},"referenceState": {"xCentre":47,"yCentre":4,"zBase":1.4}},
+{"id":"Mud_Tank_4", "baseObject":"Mud_Tank", "affiliations":{},"referenceState": {"xCentre":43,"yCentre":6,"zBase":1.5}},{"id":"Pump_Mud_4", "baseObject":"Pump_Mud", "affiliations":{},"referenceState": {"xCentre":43,"yCentre":4,"zBase":1.4}},
+{"id":"Mud_Tank_5", "baseObject":"Mud_Tank", "affiliations":{},"referenceState": {"xCentre":39,"yCentre":6,"zBase":1.5}},{"id":"Pump_Mud_5", "baseObject":"Pump_Mud", "affiliations":{},"referenceState": {"xCentre":39,"yCentre":4,"zBase":1.4}},
+{"id":"Mud_Tank_6", "baseObject":"Mud_Tank_Starboard", "affiliations":{},"referenceState": {"xCentre":55,"yCentre":-6,"zBase":1.5}},{"id":"Pump_Mud_6", "baseObject":"Pump_Mud_Starboard", "affiliations":{},"referenceState": {"xCentre":55,"yCentre":-4,"zBase":1.4}},
+{"id":"Mud_Tank_7", "baseObject":"Mud_Tank_Starboard", "affiliations":{},"referenceState": {"xCentre":51,"yCentre":-6,"zBase":1.5}},{"id":"Pump_Mud_7", "baseObject":"Pump_Mud_Starboard", "affiliations":{},"referenceState": {"xCentre":51,"yCentre":-4,"zBase":1.4}},
+{"id":"Mud_Tank_8", "baseObject":"Mud_Tank_Starboard", "affiliations":{},"referenceState": {"xCentre":47,"yCentre":-6,"zBase":1.5}},{"id":"Pump_Mud_8", "baseObject":"Pump_Mud_Starboard", "affiliations":{},"referenceState": {"xCentre":47,"yCentre":-4,"zBase":1.4}},
+{"id":"Mud_Tank_9", "baseObject":"Mud_Tank_Starboard", "affiliations":{},"referenceState": {"xCentre":43,"yCentre":-6,"zBase":1.5}},{"id":"Pump_Mud_9", "baseObject":"Pump_Mud_Starboard", "affiliations":{},"referenceState": {"xCentre":43,"yCentre":-4,"zBase":1.4}},
+{"id":"Mud_Tank_10", "baseObject":"Mud_Tank_Starboard", "affiliations":{},"referenceState": {"xCentre":39,"yCentre":-6,"zBase":1.5}},{"id":"Pump_Mud_10", "baseObject":"Pump_Mud_Starboard", "affiliations":{},"referenceState": {"xCentre":39,"yCentre":-4,"zBase":1.4}},
+{"id":"Heat_Exchanger_1", "baseObject":"Heat_Exchanger", "affiliations":{},"referenceState": {"xCentre":80,"yCentre":-6,"zBase":6.5}}, {"id":"Heat_Exchanger_2", "baseObject":"Heat_Exchanger", "affiliations":{},"referenceState": {"xCentre":78,"yCentre":-6,"zBase":6.5}},
+{"id":"Heat_Exchanger_3", "baseObject":"Heat_Exchanger", "affiliations":{},"referenceState": {"xCentre":80,"yCentre":6,"zBase":6.5}}, {"id":"Heat_Exchanger_4", "baseObject":"Heat_Exchanger", "affiliations":{},"referenceState": {"xCentre":78,"yCentre":6,"zBase":6.5}},
+{"id":"Switch_Board_1", "baseObject":"Switch_Board", "affiliations":{},"referenceState": {"xCentre":74,"yCentre":5.5,"zBase":6.5}},{"id":"Switch_Board_2", "baseObject":"Switch_Board", "affiliations":{},"referenceState": {"xCentre":74,"yCentre":2.5,"zBase":6.5}}, {"id":"Switch_Board_3", "baseObject":"Switch_Board", "affiliations":{},"referenceState": {"xCentre":74,"yCentre":-5.5,"zBase":6.5}}, {"id":"Switch_Board_4", "baseObject":"Switch_Board", "affiliations":{},"referenceState": {"xCentre":74,"yCentre":-2.5,"zBase":6.5}},
+{"id":"Human_Model_1", "baseObject":"Human_Model", "affiliations":{},"referenceState": {"xCentre":80,"yCentre":-2.5,"zBase":6.5}},{"id":"Human_Model_2", "baseObject":"Human_Model", "affiliations":{},"referenceState": {"xCentre":50,"yCentre":0,"zBase":1.5}}, {"id":"Human_Model_3", "baseObject":"Human_Model", "affiliations":{},"referenceState": {"xCentre":80,"yCentre":0,"zBase":1.5}},
+{"id":"Propulsion_1", "baseObject":"Propulsion", "affiliations":{},"referenceState": {"xCentre":4,"yCentre":5.5,"zBase":-1}}, {"id":"Propulsion_2", "baseObject":"Propulsion", "affiliations":{},"referenceState": {"xCentre":4,"yCentre":-5.5,"zBase":-1}},
+{"id":"Compressor_1", "baseObject":"Compressor", "affiliations":{},"referenceState": {"xCentre":92,"yCentre":3.5,"zBase":6.5}},
+{"id":"Compressor_2", "baseObject":"Compressor", "affiliations":{},"referenceState": {"xCentre":92,"yCentre":-3.5,"zBase":6.5}},
+                   
+{"id":"Stair", "baseObject":"Stair", "affiliations":{},"referenceState": {"xCentre":95,"yCentre":0,"zBase":6.5}},
+                   
+{"id":"Air_Tank_1", "baseObject":"Air_Tank", "affiliations":{},"referenceState": {"xCentre":91,"yCentre":-1.2,"zBase":6.5}},
+{"id":"Air_Tank_2", "baseObject":"Air_Tank", "affiliations":{},"referenceState": {"xCentre":91,"yCentre":1.2,"zBase":6.5}},
+                   
+{"id":"CO2_Tank_1", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":95,"yCentre":3.5,"zBase":6.5}},
+{"id":"CO2_Tank_2", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":95.7,"yCentre":3.5,"zBase":6.5}},
+{"id":"CO2_Tank_3", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":96.4,"yCentre":3.5,"zBase":6.5}},
+{"id":"CO2_Tank_4", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":97.1,"yCentre":3.5,"zBase":6.5}},{"id":"CO2_Tank_5", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":95,"yCentre":2.7,"zBase":6.5}},
+{"id":"CO2_Tank_6", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":95.7,"yCentre":2.7,"zBase":6.5}},
+{"id":"CO2_Tank_7", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":96.4,"yCentre":2.7,"zBase":6.5}},
+{"id":"CO2_Tank_8", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":97.1,"yCentre":2.7,"zBase":6.5}},
+{"id":"CO2_Tank_9", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":95,"yCentre":-3.5,"zBase":6.5}},
+{"id":"CO2_Tank_10", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":95.7,"yCentre":-3.5,"zBase":6.5}},
+{"id":"CO2_Tank_11", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":96.4,"yCentre":-3.5,"zBase":6.5}},
+{"id":"CO2_Tank_12", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":97.1,"yCentre":-3.5,"zBase":6.5}},{"id":"CO2_Tank_13", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":95,"yCentre":-2.7,"zBase":6.5}},
+{"id":"CO2_Tank_14", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":95.7,"yCentre":-2.7,"zBase":6.5}},
+{"id":"CO2_Tank_715", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":96.4,"yCentre":-2.7,"zBase":6.5}},
+{"id":"CO2_Tank_16", "baseObject":"CO2_Tank", "affiliations":{},"referenceState": {"xCentre":97.1,"yCentre":-2.7,"zBase":6.5}},
+                   
+{"id":"Pump_Fueloil_1", "baseObject":"Pump_Fueloil", "affiliations":{},"referenceState": {"xCentre":86,"yCentre":4,"zBase":6.5}},
+{"id":"Pump_Fueloil_2", "baseObject":"Pump_Fueloil", "affiliations":{},"referenceState": {"xCentre":85,"yCentre":4,"zBase":6.5}},
+{"id":"Pump_Fueloil_3", "baseObject":"Pump_Fueloil", "affiliations":{},"referenceState": {"xCentre":84,"yCentre":4,"zBase":6.5}}, {"id":"Pump_Fueloil_4", "baseObject":"Pump_Fueloil", "affiliations":{},"referenceState": {"xCentre":86,"yCentre":-4,"zBase":6.5}},
+{"id":"Pump_Fueloil_5", "baseObject":"Pump_Fueloil", "affiliations":{},"referenceState": {"xCentre":85,"yCentre":-4,"zBase":6.5}},
+{"id":"Pump_Fueloil_6", "baseObject":"Pump_Fueloil", "affiliations":{},"referenceState": {"xCentre":84,"yCentre":-4,"zBase":6.5}},
+                  
+{"id":"Transvers_Thruster_1", "baseObject":"Transvers_Thruster", "affiliations":{},"referenceState": {"xCentre":100,"yCentre":0,"zBase":1.5}},
+{"id":"Thruster_Motor_1", "baseObject":"Thruster_Motor", "affiliations":{},"referenceState": {"xCentre":100,"yCentre":0.40,"zBase":4}},
+{"id":"Transvers_Thruster_2", "baseObject":"Transvers_Thruster", "affiliations":{},"referenceState": {"xCentre":103,"yCentre":0,"zBase":1.5}},
+{"id":"Thruster_Motor_2", "baseObject":"Thruster_Motor", "affiliations":{},"referenceState": {"xCentre":103,"yCentre":0.40,"zBase":4}},
+                  
+{"id":"Propulsion_Room", "baseObject":"Propulsion_Room", "affiliations":{},"referenceState": {"xCentre":8,"yCentre":0,"zBase":6.5}}]
+
+    
 
     
 }
